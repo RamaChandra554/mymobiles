@@ -3,7 +3,7 @@ export let MotorData = [
         id: 1,
         mainCategory: 'Mobile Phones',
         subCategory: 'Motorola',
-        url: 'https://example.com/motorola-edge-50-fusion-marshmallow-blue-256-gb.jpg',
+        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/5/t/j/edge-50-fusion-pb300002in-motorola-original-imahywzrfagkuyxx.jpeg?q=70',
         title: 'Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)',
         brand: 'Motorola',
         price: 22999,
