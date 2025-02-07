@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Sidenav = () => {
   return (
     <>
-    <Col className="col-2 bg-dark text-light" style={{height:'100vh'}}>
+    <Col className="col-2 bg-dark text-light" style={{height:'100vh', position:'sticky', top:'0'}}>
             <ul  style={{listStyle:'none',  lineHeight:'4',}}>
                 <li>Home</li>
                 <li>About</li>
