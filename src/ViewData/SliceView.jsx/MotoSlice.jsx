@@ -1,20 +1,20 @@
 import React from 'react'
-import { MotorData } from '../Data/MotoData'
 import { Link } from 'react-router-dom'
+import { NewMotoData } from '../../Data/NewMotoData'
 
 function MotoSlice() {
-    let MobSlice = MotorData.slice(0, 4)
+    let MobSlice = NewMotoData.slice(0, 4)
     return (
         <>
             <div>
                 <div className="d-flex">
                     {
                         MobSlice.map((e) => (
-                            <div className="border p-4">
-                                <img src={e.url} alt="" />
-                                <p>{e.brand}</p>
+                            <div className="grid border p-2">
+                                <img src={e.url} style={{height:'240px', maxWidth:'240px'}} alt="" />
+                                <p>{e.name}</p>
                                 <p>{e.title}</p>
-                                <p><b>{e.actualPrice}</b> / {e.discount}%off</p>
+                                <p><b>{e.originalPrice}</b> / {e.discount}%off</p>
                             </div>
                         ))
                     }

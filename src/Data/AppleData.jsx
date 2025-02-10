@@ -1,6 +1,7 @@
 export const AppleData=[
     {
         id: "A021",
+        url:'https://m.media-amazon.com/images/I/619oqSJVY5L._SL1500_.jpg',
         name: "Apple iPhone 15 Pro Max (Space Black, 256 GB)",
         rating: 4.8,
         reviews: 10256,
@@ -38,6 +39,7 @@ export const AppleData=[
     },
     {
         id: "A022",
+        url:'https://m.media-amazon.com/images/I/619f09kK7tL._SL1500_.jpg',
         name: "Apple iPhone 14 (Purple, 128 GB)",
         rating: 4.7,
         reviews: 8123,
@@ -75,6 +77,7 @@ export const AppleData=[
     },
     {
         id: "A023",
+        url:'https://rukminim2.flixcart.com/image/312/312/l0igvww0/mobile/l/h/4/-original-imagca67uzxhrkgd.jpeg?q=70',
         name: "Apple iPhone SE (2022) (Starlight, 64 GB)",
         rating: 4.6,
         reviews: 5647,
@@ -112,6 +115,7 @@ export const AppleData=[
     },
     {
         id: "A024",
+        url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/o/b/-original-imaghx9qkugtbfrn.jpeg?q=70',
         name: "Apple iPhone 13 (Starlight, 128 GB)",
         rating: 4.7,
         reviews: 8349,
@@ -149,6 +153,7 @@ export const AppleData=[
     },
     {
         id: "A025",
+        url:'https://m.media-amazon.com/images/I/71fVoqRC0wL._SL1500_.jpg',
         name: "Apple iPhone 12 (Black, 64 GB)",
         rating: 4.6,
         reviews: 9001,
@@ -186,6 +191,7 @@ export const AppleData=[
     },
     {
         id: "A026",
+        url:'https://rukminim2.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/k/y/d/iphone-11-256-u-mwm82hn-a-apple-0-original-imafkg25mhaztxns.jpeg?q=70',
         name: "Apple iPhone 11 (White, 64 GB)",
         rating: 4.7,
         reviews: 10250,
@@ -223,6 +229,7 @@ export const AppleData=[
     },
     {
         id: "A027",
+        url:'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQIh87n0Q6PELHHMHIyesn5mnHeH7Zg1b7z-UsQ7Cmk6sLA22Ss61WSnwTb8oUcqjeJo6MvhnFW2zS_IWODyH8lntKEK9879C4RzktNzG5OeAMGROrLjWEf',
         name: "Apple iPhone XR (Blue, 64 GB)",
         rating: 4.6,
         reviews: 8324,
@@ -260,6 +267,7 @@ export const AppleData=[
     },
     {
         id: "A028",
+        url: 'https://rukminim2.flixcart.com/image/850/1000/k12go7k0/mobile/7/e/e/apple-iphone-7-mn8x2hn-a-original-imafkqcrzpwdcptn.jpeg?q=90&crop=false',
         name: "Apple iPhone 7 (Black, 32 GB)",
         rating: 4.4,
         reviews: 7321,
@@ -297,6 +305,7 @@ export const AppleData=[
     },
     {
         id: "A029",
+        url:'https://rukminim2.flixcart.com/image/312/312/mobile/v/g/j/apple-iphone-6s-na-original-imaebym6vqhggczq.jpeg?q=70',
         name: "Apple iPhone 6S (Rose Gold, 64 GB)",
         rating: 4.5,
         reviews: 6345,
@@ -334,6 +343,7 @@ export const AppleData=[
     },
     {
         id: "A030",
+        url:'https://images-cdn.ubuy.co.in/65e2c7511dd3bf5d46763088-restored-apple-iphone-8-256gb-factory.jpg',
         name: "Apple iPhone 8 (Gold, 64 GB)",
         rating: 4.5,
         reviews: 15000,
@@ -371,6 +381,7 @@ export const AppleData=[
     },
     {
         id: "A031",
+        url:'https://images-cdn.ubuy.co.in/66ffc435065e8907bf779e19-pre-owned-apple-iphone-5s-carrier.jpg',
         name: "Apple iPhone 5S (Space Gray, 16 GB)",
         rating: 4.4,
         reviews: 10000,
@@ -408,6 +419,7 @@ export const AppleData=[
     },
     {
         id: "A032",
+        url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuF1b-Izx7VM9KBkUsP5AzNQfr-Sid6w5UXg&s',
         name: "Apple iPhone 6 (Gold, 32 GB)",
         rating: 4.3,
         reviews: 13500,
@@ -445,6 +457,7 @@ export const AppleData=[
     },
     {
         id: "A033",
+        url:'https://images-cdn.ubuy.co.in/65063d7755de0674e52850f0-restored-apple-iphone-4s-16gb-black.jpg',
         name: "Apple iPhone 4S (Black, 16 GB)",
         rating: 4.2,
         reviews: 9000,
@@ -482,6 +495,7 @@ export const AppleData=[
     },
     {
         id: "A034",
+        url:'https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/h/v/w/apple-iphone-12-mini-dummyapplefsn-original-imafwgb2zkjcwpre.jpeg?q=70',
         name: "Apple iPhone 12 Mini (Blue, 64 GB)",
         rating: 4.6,
         reviews: 4500,
@@ -519,7 +533,8 @@ export const AppleData=[
     },
     {
         id: "A035",
-        name: "Apple iPhone 12 Pro Max (Silver, 128 GB)",
+        url:'https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/u/c/d/apple-iphone-12-pro-dummyapplefsn-original-imafwgbrzxg3nggd.jpeg?q=70',
+        name: "Apple iPhone 12 Pro Max (Pacific Blue, 128 GB)",
         rating: 4.8,
         reviews: 11500,
         price: 109999,
@@ -556,6 +571,7 @@ export const AppleData=[
     },
     {
         id: "A036",
+        url:'https://rukminim2.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/y/k/z/iphone-11-64-a-mwlx2hn-a-apple-0-original-imafkg24ymsjav9h.jpeg?q=70',
         name: "Apple iPhone 11 (Purple, 64 GB)",
         rating: 4.7,
         reviews: 9500,
@@ -593,7 +609,8 @@ export const AppleData=[
     },
     {
         id: "A037",
-        name: "Apple iPhone SE 2020 (White, 128 GB)",
+        url:'https://rukminim2.flixcart.com/image/312/312/l0igvww0/mobile/9/6/t/-original-imagca67gxuvkmrj.jpeg?q=70',
+        name: "Apple iPhone SE 2020 (Red, 128 GB)",
         rating: 4.6,
         reviews: 8000,
         price: 40999,
@@ -630,7 +647,8 @@ export const AppleData=[
     },
     {
         id: "A038",
-        name: "Apple iPhone 13 (Starlight, 128 GB)",
+        url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70',
+        name: "Apple iPhone 13 (Pink, 128 GB)",
         rating: 4.8,
         reviews: 12000,
         price: 73999,
@@ -667,7 +685,8 @@ export const AppleData=[
       },
       {
         id: "A039",
-        name: "Apple iPhone 12 (Red, 64 GB)",
+        url:'https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/y/7/n/apple-iphone-12-dummyapplefsn-original-imafwg8dpyjvgg3j.jpeg?q=70',
+        name: "Apple iPhone 12 (Blue, 64 GB)",
         rating: 4.7,
         reviews: 14000,
         price: 64999,
@@ -704,6 +723,7 @@ export const AppleData=[
       },
       {
         id: "A040",
+        url:'https://rukminim2.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/c/u/e/iphone-11-pro-512-u-mwcd2hn-a-apple-0-original-imafkg2fhzhzzh5s.jpeg?q=70',
         name: "Apple iPhone 11 Pro (Midnight Green, 64 GB)",
         rating: 4.8,
         reviews: 12500,
