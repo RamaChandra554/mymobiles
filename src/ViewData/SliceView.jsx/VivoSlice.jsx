@@ -1,17 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { VivoData } from '../../Data/VivoData'
 import Slice from './Slice';
-import { NewMotoData } from '../../Data/NewMotoData'
 
-function MotoSlice() {
+function VivoSlice() {
     return (
         <Slice 
-          data={NewMotoData} 
+          data={VivoData} 
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
         />
       );
-}
+  }
 
-export default MotoSlice
+
+export default VivoSlice

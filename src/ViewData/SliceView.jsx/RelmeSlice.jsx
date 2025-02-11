@@ -1,17 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Slice from './Slice';
-import { NewMotoData } from '../../Data/NewMotoData'
+import { RealmeData } from '../../Data/RealmeData'
 
-function MotoSlice() {
+function RelmeSlice() {
     return (
         <Slice 
-          data={NewMotoData} 
+          data={RealmeData} 
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
         />
       );
-}
+  }
 
-export default MotoSlice
+
+export default RelmeSlice

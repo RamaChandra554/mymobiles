@@ -5,6 +5,10 @@ import MotoSlice from '../ViewData/SliceView.jsx/MotoSlice';
 import AppleSlice from '../ViewData/SliceView.jsx/AppleSlice';
 import IqooSlice from '../ViewData/SliceView.jsx/IqooSlice';
 import NothingSlice from '../ViewData/SliceView.jsx/NothingSlice';
+import VivoSlice from '../ViewData/SliceView.jsx/VivoSlice';
+import SamsungSlice from '../ViewData/SliceView.jsx/SamsungSlice';
+import PixelSlice from '../ViewData/SliceView.jsx/PixelSlice';
+import RelmeSlice from '../ViewData/SliceView.jsx/RelmeSlice';
 
 function ContaintNav() {
   return (
@@ -18,6 +22,10 @@ function ContaintNav() {
       <IqooSlice/>
       <MotoSlice/>
       <NothingSlice/>
+      <SamsungSlice/>
+      <PixelSlice/>
+      <RelmeSlice/>
+      <VivoSlice/>
     </>
   );
 }

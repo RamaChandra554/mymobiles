@@ -1,17 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { PixelData } from '../../Data/PixelData'
 import Slice from './Slice';
-import { NewMotoData } from '../../Data/NewMotoData'
+import { Link } from 'react-router-dom';
 
-function MotoSlice() {
+function PixelSlice() {
     return (
         <Slice 
-          data={NewMotoData} 
+          data={PixelData} 
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
         />
       );
-}
+ }
 
-export default MotoSlice
+export default PixelSlice

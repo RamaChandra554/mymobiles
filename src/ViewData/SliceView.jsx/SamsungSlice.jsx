@@ -1,17 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Slice from './Slice';
-import { NewMotoData } from '../../Data/NewMotoData'
+import { SamsungData } from '../../Data/SamsungData'
 
-function MotoSlice() {
+function SamsungSlice() {
     return (
         <Slice 
-          data={NewMotoData} 
+          data={SamsungData} 
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
         />
       );
-}
-
-export default MotoSlice
+ }
+export default SamsungSlice
