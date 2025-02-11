@@ -1,6 +1,6 @@
 export const iqooData = [
   {
-    id: "IQ001",
+    id: "001",
     url: 'https://m.media-amazon.com/images/I/61ntKdWfXwL._AC_UY218_.jpg',
     name: "iQOO 11 5G (Alpha, 256 GB)",
     rating: 4.8,
@@ -38,7 +38,7 @@ export const iqooData = [
     otgCompatible: true
   },
   {
-    id: "IQ002",
+    id: "002",
     url: 'https://m.media-amazon.com/images/I/611rQWZa5rL._AC_UY218_.jpg',
     name: "iQOO Neo 7 Pro 5G (Dark Strom, 256 GB)",
     rating: 4.7,

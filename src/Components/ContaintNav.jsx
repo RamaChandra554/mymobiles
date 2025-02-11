@@ -1,14 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Motoview from '../ViewData/MotoView';
-import MotoSlice from '../ViewData/SliceView.jsx/MotoSlice';
-import AppleSlice from '../ViewData/SliceView.jsx/AppleSlice';
-import IqooSlice from '../ViewData/SliceView.jsx/IqooSlice';
-import NothingSlice from '../ViewData/SliceView.jsx/NothingSlice';
-import VivoSlice from '../ViewData/SliceView.jsx/VivoSlice';
-import SamsungSlice from '../ViewData/SliceView.jsx/SamsungSlice';
-import PixelSlice from '../ViewData/SliceView.jsx/PixelSlice';
-import RelmeSlice from '../ViewData/SliceView.jsx/RelmeSlice';
+import MotoSlice from '../ViewData/SliceView/MotoSlice';
+import AppleSlice from '../ViewData/SliceView/AppleSlice';
+import IqooSlice from '../ViewData/SliceView/IqooSlice';
+import NothingSlice from '../ViewData/SliceView/NothingSlice';
+import VivoSlice from '../ViewData/SliceView/VivoSlice';
+import SamsungSlice from '../ViewData/SliceView/SamsungSlice';
+import PixelSlice from '../ViewData/SliceView/PixelSlice';
+import RelmeSlice from '../ViewData/SliceView/RelmeSlice';
+import OnePulseSlice from '../ViewData/SliceView/OnePulseSlice';
 
 function ContaintNav() {
   return (
@@ -18,14 +19,15 @@ function ContaintNav() {
           <Navbar.Brand href="#">Main Dashbord</Navbar.Brand>
         </Container>
       </Navbar>
-      <AppleSlice/>
-      <IqooSlice/>
-      <MotoSlice/>
-      <NothingSlice/>
-      <SamsungSlice/>
-      <PixelSlice/>
-      <RelmeSlice/>
-      <VivoSlice/>
+      <AppleSlice />
+      <IqooSlice />
+      <MotoSlice />
+      <NothingSlice />
+      <SamsungSlice />
+      <OnePulseSlice />
+      <PixelSlice />
+      <RelmeSlice />
+      <VivoSlice />
     </>
   );
 }

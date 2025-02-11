@@ -1,17 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { iqooData } from '../../Data/IqooData'
 import Slice from './Slice';
-import { NewMotoData } from '../../Data/NewMotoData'
 
-function MotoSlice() {
+function IqooSlice() {
     return (
         <Slice 
-          data={NewMotoData} 
+          data={iqooData} 
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
+          linkTo= "/iqoo"
+
         />
       );
+ 
 }
 
-export default MotoSlice
+export default IqooSlice

@@ -10,6 +10,8 @@ function PixelSlice() {
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
+          linkTo= "/pixel"
+
         />
       );
  }

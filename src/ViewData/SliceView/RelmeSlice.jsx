@@ -9,6 +9,8 @@ function RelmeSlice() {
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
+          linkTo= "/realme"
+
         />
       );
   }

@@ -8,7 +8,9 @@ function VivoSlice() {
           data={VivoData} 
           imgHeight="240px" 
           width="22%" 
-          seeAllText="See All" 
+          seeAllText="See All"
+          linkTo= "/vivo"
+ 
         />
       );
   }

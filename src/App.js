@@ -15,6 +15,7 @@ import PixelView from './ViewData/PixelView';
 import RealmeView from './ViewData/RealmeData';
 import SamsungView from './ViewData/SamsungView';
 import VivoView from './ViewData/VivoView';
+import ProductDetails from './Pages/ProductDetails';
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
           <Route path = '/maindash' element = {<MainDash/>}/>
           <Route path='/apple' element= {<AppleView/>}/>
           <Route path='/iqoo' element = {<IqooView/>}/>
+          <Route path='/iqoo/:id' element={<ProductDetails/>} />
           <Route path='/moto' element = {<Motoview/>}/>
           <Route path='/nothing' element ={<NotingView/>}/>
           <Route path='/onepluse' element={<OnePluseView/>}/>
@@ -37,6 +39,7 @@ const App = () => {
           <Route path='/realme' element ={<RealmeView/>}/>
           <Route path='/samsung' element={<SamsungView/>}/>
           <Route path='/vivo' element={<VivoView/>}/>
+          <Route path='/details' element={<ProductDetails/>} />
           
           
         </Routes>

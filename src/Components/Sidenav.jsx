@@ -7,21 +7,23 @@ import { Link } from 'react-router-dom'
 const Sidenav = () => {
   return (
     <>
-    <Col className="col-2 bg-dark text-light" style={{height:'100vh', position:'sticky', top:'0'}}>
-            <ul  style={{listStyle:'none',  lineHeight:'4',}}>
-                <li>Home</li>
-                <Link to='/'><li>Apple</li></Link>
-                <li>Iqoo</li>
-                <li>Moto</li>
-                <li>Nothing</li>
-                <li>OnePluse</li>
-                <li>Pixel</li>
-                <li>Realme</li>
-                <li>Samsung</li>
-                <li>Vivo</li>
-            </ul>
-            <ul className='justify-Content-end' style={{listStyle:'none',}}><li><Link to='/'>signOut</Link></li></ul>
-        </Col>
+   <Col xs={4} sm={3} md={2} lg={2} className="bg-dark text-light" style={{ position: 'sticky', top: '0', height: '110vh' }}>
+           <ul className='g-4' style={{ listStyle: 'none', lineHeight: '4', color:'white', padding: 2 }}>
+             <Link to='/'><li>Home</li></Link>
+             <Link to='/apple'><li>Apple</li></Link>
+             <Link to='/iqoo'><li>Iqoo</li></Link>
+             <Link to='/moto'><li>Moto</li></Link>
+             <Link to='/nothing'><li>Nothing</li></Link>
+             <Link to='/onepluse'><li>OnePluse</li></Link>
+             <Link to='/pixel'><li>Pixel</li></Link>
+             <Link to='/realme'><li>Realme</li></Link>
+             <Link to='/samsung'><li>Samsung</li></Link>
+             <Link to='/vivo'><li>Vivo</li></Link>
+           </ul>
+           <ul className='justify-content-end' style={{ listStyle: 'none', padding: 0 }}>
+             <li><Link to='/'>Sign Out</Link></li>
+           </ul>
+         </Col>
       
     </>
   )

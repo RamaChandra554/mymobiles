@@ -1,17 +1,18 @@
 import React from 'react'
-import { iqooData } from '../../Data/IqooData'
+import { OnePlusData } from '../../Data/OnePluseData';
 import Slice from './Slice';
 
-function IqooSlice() {
+function OnePulseSlice() {
     return (
         <Slice 
-          data={iqooData} 
+          data={OnePlusData} 
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
+          linkTo= "/onepluse"
+
         />
       );
- 
 }
 
-export default IqooSlice
+export default OnePulseSlice

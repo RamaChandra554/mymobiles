@@ -10,6 +10,8 @@ function NothingSlice() {
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All" 
+          linkTo= "/nothing"
+
         />
       );
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { AppleData } from '../../Data/AppleData'
 import Slice from './Slice';
-import AppleView from '../AppleView';
 
 
 
@@ -13,10 +12,15 @@ function AppleSlice() {
           imgHeight="240px" 
           width="22%" 
           seeAllText="See All "
-          linkTo= "AppleView"
+          linkTo= "/apple"
 
         />
       );
+
+}
+
+export default AppleSlice
+
 
     // let MobSlice = AppleData.slice(0, 4)
     // return (
@@ -38,6 +42,3 @@ function AppleSlice() {
 
     //     </>
     // )
-}
-
-export default AppleSlice

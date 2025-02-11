@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AppleView from '../AppleView';
 
-function Slice({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All' }) {
+function Slice({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All', linkTo }) {
   let MobSlice = data.slice(0, 4);
 
   return (
@@ -18,7 +17,7 @@ function Slice({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All
             </div>
           ))
         }
-        <Link to= {linkTo} className="btn btn-dark align-items-center" style={{  }}>
+        <Link to={linkTo} className="btn btn-dark align-items-center" style={{  }}>
           {seeAllText}
         </Link>
       </div>
