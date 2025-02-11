@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AppleView from '../AppleView';
 
 function Slice({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All' }) {
   let MobSlice = data.slice(0, 4);
 
   return (
     <>
-      <div className="d-flex">
+      <div className="d-flex align-items-center">
         {
           MobSlice.map((e, index) => (
             <div key={index} className="grid border p-2" style={{ width }}>
@@ -17,7 +18,7 @@ function Slice({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All
             </div>
           ))
         }
-        <Link to="/all-products" className="btn btn-info align-items-center" style={{ height: '30px' }}>
+        <Link to= {linkTo} className="btn btn-dark align-items-center" style={{  }}>
           {seeAllText}
         </Link>
       </div>

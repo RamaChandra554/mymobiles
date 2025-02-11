@@ -1,5 +1,5 @@
 import React from 'react'
-import Row from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import { SamsungData } from '../Data/SamsungData';
 
 function SamsungView() {

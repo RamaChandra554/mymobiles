@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { AppleData } from '../../Data/AppleData'
 import Slice from './Slice';
+import AppleView from '../AppleView';
+
+
 
 function AppleSlice() {
 
@@ -10,7 +12,9 @@ function AppleSlice() {
           data={AppleData} 
           imgHeight="240px" 
           width="22%" 
-          seeAllText="See All " 
+          seeAllText="See All "
+          linkTo= "AppleView"
+
         />
       );
 
