@@ -4,10 +4,20 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Sidenav from '../Components/Sidenav';
+import { useState } from 'react';
 
 function ProductDetails() {
     const { id } = useParams();
     let Details = iqooData.find((e) => e.id == id);
+
+    const [cart, setCart] =useState([])
+    const addCart =() =>{
+        const ProductData = document.querySelectorAll('p');
+        let singleData = Array.from(ProductData).map((i)=>i.innerText)
+        setCart(singleData)
+        alert ('item Add to Cart Successfully')
+    }
+    localStorage.setItem('cartItem',cart)
 
     return (
         <Container fluid>
@@ -16,10 +26,10 @@ function ProductDetails() {
                 <Sidenav/>
 
                 <Col xs={8} sm={9} md={10} lg={10}>
-                    <h3>Product Details</h3>
+                    <div className='bg-dark text-light d-flex justifyContent-between'><h3>Product Details</h3> <Link to='/cart'><p>Cart</p></Link></div>
                     <Row className='border align-items-center p-2'>
                         <Col xs={12} sm={6} md={6} lg={6} className='mb-2'>
-                            <img src={Details.url} style={{ height: 'auto', width:'80%', maxWidth: '100%' }} alt={Details.name} />
+                            <img src={Details.url} style={{ height: 'auto', justifyContent:'between', width:'80%', maxWidth: '100%' }} alt={Details.name} />
                         </Col>
 
                         <Col xs={12} sm={6} md={6} lg={6}>
@@ -40,7 +50,7 @@ function ProductDetails() {
                             <p><strong>Offer:</strong> {Details.offer}</p>
                             <br />
                             <p><strong style={{ color: 'blue' }}>Price: ₹{Details.price}</strong> <span style={{ textDecoration: 'line-through', color: 'red' }}>₹{Details.originalPrice}</span> <strong>{Details.discount}% off</strong></p>
-                            <p className='btn btn-primary'>Add to cart</p>
+                            <button className='btn btn-primary'onClick={addCart}>Add to cart</button>
                         </Col>
                     </Row>
                 </Col>

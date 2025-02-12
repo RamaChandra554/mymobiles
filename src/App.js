@@ -16,6 +16,7 @@ import RealmeView from './ViewData/RealmeData';
 import SamsungView from './ViewData/SamsungView';
 import VivoView from './ViewData/VivoView';
 import ProductDetails from './Pages/ProductDetails';
+import Cart from './Modules/Cart';
 
 
 
@@ -40,6 +41,7 @@ const App = () => {
           <Route path='/samsung' element={<SamsungView/>}/>
           <Route path='/vivo' element={<VivoView/>}/>
           <Route path='/details' element={<ProductDetails/>} />
+          <Route path='/cart' element={<Cart/>} />
           
           
         </Routes>
