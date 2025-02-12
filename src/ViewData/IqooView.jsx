@@ -8,9 +8,8 @@ function IqooView() {
   return (
     <Container fluid>
     <Row className="p-0">
-      <Sidenav/>
+    <Sidenav/>
 
-      {/* Main content area (Apple products) */}
       <Col xs={8} sm={9} md={10} lg={10}>
         <Row className="p-2 " style={{textDecoration:'none'}}>
           {iqooData.map((e, index) => (

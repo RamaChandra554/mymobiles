@@ -1,21 +1,22 @@
 import React from 'react'
-import { Row,Col } from 'react-bootstrap'
+import { Row,Col, Offcanvas, Container } from 'react-bootstrap'
 import Sidenav from '../Components/Sidenav'
 import ContaintNav from '../Components/ContaintNav'
+import OffCanves from '../Components/OffCanvas'
 
 const Dashbord = () => {
   return (
     <>
+    <Container fluid >
     <Row>
-       
-        <Sidenav/>
-       
+       <OffCanves/>
         <Col className='col-sm-10 text-dark'>
         <ContaintNav/>
 
         
         </Col>
     </Row>
+    </Container>
     
         
     </>

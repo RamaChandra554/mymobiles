@@ -19,6 +19,7 @@ function ContaintNav() {
           <Navbar.Brand href="#">Main Dashbord</Navbar.Brand>
         </>
       </Navbar>
+      
       <AppleSlice />
       <IqooSlice />
       <MotoSlice />
