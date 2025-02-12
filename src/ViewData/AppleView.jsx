@@ -14,9 +14,12 @@ function AppleView() {
       <Col xs={8} sm={9} md={10} lg={10}>
         <Row className="p-3">
           {AppleData.map((e, index) => (
-            <Col xs={12} sm={6} md={4} lg={3} xl={2} key={index} className="mb-4">
+            <Col xs={12} sm={6} md={4} lg={3}  key={index} className="mb-4">
               <div className="border p-3">
-                <img src={e.url} style={{ height: '200px', }} alt={e.title} />
+                <div className='text-center w-100'>
+                <img src={e.url} style={{ height: '200px', maxWidth:'100%', }} alt={e.title} />
+                </div>
+                  
                 <p>{e.name}</p>
                 <p>{e.title}</p>
                 <p><b>{e.price}</b> / {e.discount}% off</p>

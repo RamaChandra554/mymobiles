@@ -14,14 +14,14 @@ function IqooView() {
       <Col xs={8} sm={9} md={10} lg={10}>
         <Row className="p-2 " style={{textDecoration:'none'}}>
           {iqooData.map((e, index) => (
-            <Col xs={12} sm={6} md={4} lg={3} xl={2} key={index} className="mb-4">
+            <Col xs={12} sm={6} md={4} lg={3}  key={index} className="mb-4">
               <div className="border p-2" style={{}}>
-                <img src={e.url} style={{ height: '200px', }} alt={e.title} />
+                <img src={e.url} style={{ height: '200px', maxWidth:'100%' }} alt={e.title} />
                 <p>{e.name}</p>
                 <p>{e.title}</p>
                 <p><b>{e.price}</b> / {e.discount}% off</p>
                 <p><strong>Rating:</strong> {e.rating}</p>
-                <Link to={'/iqooData/${e.id}'} className="btn btn-outline-primary btn-sm">Learn More</Link>
+                <Link to={`/iqoo/${e.id}`} ><p className="btn btn-outline-primary btn-sm">Learn More</p></Link>
               </div>
             </Col>
           ))}

@@ -7,3 +7,15 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+
+ul,li{
+  list-style: none;
+}
+Link{
+  text-decoration: none;
+  color: white;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
