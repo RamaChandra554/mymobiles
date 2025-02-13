@@ -12,7 +12,7 @@ function VivoView() {
 
         <ZviewData
           data={VivoData}
-          linkTo={`/vivo`}
+          linkTo={`/vivo/`}
         />
 
       </Row>

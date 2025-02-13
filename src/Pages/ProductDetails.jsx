@@ -1,29 +1,67 @@
 import React from 'react';
+import Sidenav from '../Components/Sidenav';
+
 import { Row, Col, Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Sidenav from '../Components/Sidenav';
 import { useState } from 'react';
 import { iqooData } from '../Data/IqooData';
+import { AppleData } from '../Data/AppleData';
+import { NewMotoData } from '../Data/NewMotoData';
+import { NothingData } from '../Data/NotingData';
+import { OnePlusData } from '../Data/OnePluseData';
+import { PixelData } from '../Data/PixelData';
+import { RealmeData } from '../Data/RealmeData';
+import { SamsungData } from '../Data/SamsungData';
+import { VivoData } from '../Data/VivoData';
+
 
 
 function ProductDetails() {
     const { id } = useParams();
     let Details = iqooData.find((e) => e.id == id);
 
-    const [cart, setCart] =useState([])
-    const addCart =() =>{
-        const ProductData = document.querySelectorAll('p');
-        let singleData = Array.from(ProductData).map((i)=>i.innerText)
-        setCart(singleData)
-        alert ('item Add to Cart Successfully')
-    }
-    localStorage.setItem('cartItem',cart)
+    const [cart, setCart] =useState([]);
+
+        React.useEffect(() => {
+            try {
+                const storedItems = localStorage.getItem('cartItem');
+                if (storedItems) {
+                    setCart(JSON.parse(storedItems));
+                }
+            } catch (error) {
+                console.error("Error loading cart items from localStorage", error);
+            }
+        }, []);
+    
+        const addCart = () => {
+            const product = {
+                name: Details.name,
+                price: Details.price,
+                url: Details.url,
+                rating: Details.rating,
+                id: Details.id
+            };
+    
+            // Add product to cart
+            const updatedCart = [...cart, product];
+            setCart(updatedCart);
+            localStorage.setItem('cartItem', JSON.stringify(updatedCart));
+    
+            alert('Item added to cart successfully');
+        };
+
+    // const addCart =() =>{
+    //     const ProductData = document.querySelectorAll('p');
+    //     let singleData = Array.from(ProductData).map((i)=>i.innerText)
+    //     setCart(singleData)
+    //     alert ('item Add to Cart Successfully')
+    // };
+    // localStorage.setItem('cartItem',cart)
 
     return (
         <Container fluid>
             <Row className='p-0'>
-                {/* Sidebar */}
                 <Sidenav/>
 
                 <Col xs={8} sm={9} md={10} lg={10}>
@@ -61,3 +99,21 @@ function ProductDetails() {
 }
 
 export default ProductDetails;
+
+
+    // const allDataArrays = [
+    //     iqooData, AppleData, NewMotoData, NothingData, OnePlusData, PixelData, 
+    //     RealmeData, SamsungData, VivoData
+    // ];
+
+    // // Find the product details by checking each array
+    // let Details = null;
+    // for (let i = 0; i < allDataArrays.length; i++) {
+    //     Details = allDataArrays[i].find((e) => e.id == id);
+    //     if (Details) break; // If found, exit the loop
+    // }
+
+    // // If no product is found, show an error or return early
+    // if (!Details) {
+    //     return <div>Product not found</div>;
+    // }

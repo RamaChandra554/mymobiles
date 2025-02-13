@@ -12,7 +12,7 @@ function PixelView() {
 
         <ZviewData
           data={PixelData}
-          linkTo={`/pixel`}
+          linkTo={`/pixel/`}
         />
       </Row>
     </Container>

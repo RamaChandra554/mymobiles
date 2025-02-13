@@ -12,7 +12,7 @@ function SamsungView() {
 
         <ZviewData
           data={SamsungData}
-          linkTo={`/samsung`}
+          linkTo={`/samsung/`}
         />
 
       </Row>

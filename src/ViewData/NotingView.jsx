@@ -11,7 +11,7 @@ function NotingView() {
       <Sidenav/>
       <ZviewData 
         data={NothingData}
-        linkTo={`/nothing`}
+        linkTo={`/nothing/`}
       />
     </Row>
    </Container>
