@@ -1,26 +1,22 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import { VivoData } from '../Data/VivoData';
 import Sidenav from '../Components/Sidenav';
+import ZviewData from './ZviewData';
 
 function VivoView() {
   return (
-    <>
-    <Sidenav/>
-      <Row className="p-0 ">
-        {VivoData.map((e) => (
-          <Col sm={6} md={4} lg={3} className="border p-0 m-0">
-            <img src={e.url} style={{ height: '360px' }} alt="" />
-            <p>{e.brand}</p>
-            <p>{e.title}</p>
-            <p><b>{e.actualPrice}</b> / {e.discount}%off</p>
-            <p><strong>reating : </strong>{e.rating}</p>
-            <p className="btn btn-outline-primary">Learn More</p>
+   <Container fluid>
+      <Row className='p-0'>
+        <Sidenav/>
 
-          </Col>
-        ))}
+        <ZviewData
+          data={VivoData}
+          linkTo={`/vivo`}
+        />
+
       </Row>
-    </>
+   </Container>
   )
 }
 

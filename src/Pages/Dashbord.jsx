@@ -9,9 +9,10 @@ const Dashbord = () => {
     <Container fluid >
     <Row>
        <OffCanves/>
+       
         <Col className='col-sm-10 text-dark'>
-        <ContaintNav/>
-
+        
+        <ContaintNav/>        
         
         </Col>
     </Row>

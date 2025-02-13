@@ -1,10 +1,11 @@
 import React from 'react';
-import { iqooData } from '../Data/IqooData';
 import { Row, Col, Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Sidenav from '../Components/Sidenav';
 import { useState } from 'react';
+import { iqooData } from '../Data/IqooData';
+
 
 function ProductDetails() {
     const { id } = useParams();
