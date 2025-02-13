@@ -1,7 +1,8 @@
 export const SamsungData = [
     {
       id: "S001",
-      name: "Samsung Galaxy A54 (Awesome Blue, 128 GB)",
+      url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/h/6/-original-imagnrhk2jpnnajr.jpeg?q=70',
+      name: "Samsung Galaxy A54 (Awesome Violet, 128 GB)",
       rating: 4.5,
       reviews: 5345,
       price: 28999,
@@ -38,6 +39,7 @@ export const SamsungData = [
     },
     {
       id: "S002",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/a/l/-original-imagzm8qrfdmhy8z.jpeg?q=70',
       name: "Samsung Galaxy S23 Ultra (Phantom Black, 512 GB)",
       rating: 4.9,
       reviews: 12456,
@@ -75,7 +77,8 @@ export const SamsungData = [
     },
     {
       id: "S003",
-      name: "Samsung Galaxy Z Fold 5 (Ivy Green, 256 GB)",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/g/l/-original-imagztmghzuhz7kf.jpeg?q=70',
+      name: "Samsung Galaxy Z Fold 5 (Ivy blue, 256 GB)",
       rating: 4.7,
       reviews: 8290,
       price: 184999,
@@ -112,6 +115,7 @@ export const SamsungData = [
     },
     {
       id: "S004",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70',
       name: "Samsung Galaxy A14 5G (Dark Red, 64 GB)",
       rating: 4.3,
       reviews: 4567,
@@ -149,6 +153,7 @@ export const SamsungData = [
     },
     {
       id: "S005",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/2/g/-original-imahfayjj4hqqqsj.jpeg?q=70',
       name: "Samsung Galaxy S22 Ultra (Phantom White, 256 GB)",
       rating: 4.8,
       reviews: 15890,

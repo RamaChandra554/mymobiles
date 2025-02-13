@@ -28,11 +28,11 @@ function ProductDetails() {
                 <Col xs={8} sm={9} md={10} lg={10}>
                     <div className='bg-dark text-light d-flex justifyContent-between'><h3>Product Details</h3> <Link to='/cart'><p>Cart</p></Link></div>
                     <Row className='border align-items-center p-2'>
-                        <Col xs={12} sm={6} md={6} lg={6} className='mb-2'>
+                        <Col xs={12} sm={6} md={4} lg={4} className='mb-2'>
                             <img src={Details.url} style={{ height: 'auto', justifyContent:'between', width:'80%', maxWidth: '100%' }} alt={Details.name} />
                         </Col>
 
-                        <Col xs={12} sm={6} md={6} lg={6}>
+                        <Col xs={12} sm={6} md={8} lg={8}>
                             <p><strong>Name: {Details.name}</strong></p>
                             <p><strong>Rating:</strong> {Details.rating} ({Details.reviews} Reviews)</p>
                             <p><strong>RAM:</strong> {Details.ram} / <strong>Storage:</strong> {Details.storage}</p>
