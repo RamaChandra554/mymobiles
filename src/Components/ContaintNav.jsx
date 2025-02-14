@@ -22,12 +22,11 @@ function ContaintNav() {
       </Navbar>
       <DasCarousel/>
 
-      
+      <SamsungSlice />
       <AppleSlice />
       <IqooSlice />
       <MotoSlice />
       <NothingSlice />
-      <SamsungSlice />
       <OnePulseSlice />
       <PixelSlice />
       <RelmeSlice />
