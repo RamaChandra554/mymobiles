@@ -10,6 +10,7 @@ import SamsungSlice from '../ViewData/SliceView/SamsungSlice';
 import PixelSlice from '../ViewData/SliceView/PixelSlice';
 import RelmeSlice from '../ViewData/SliceView/RelmeSlice';
 import OnePulseSlice from '../ViewData/SliceView/OnePulseSlice';
+import DasCarousel from './Carousel';
 
 function ContaintNav() {
   return (
@@ -19,6 +20,8 @@ function ContaintNav() {
           <Navbar.Brand href="#">Main Dashbord</Navbar.Brand>
         </>
       </Navbar>
+      <DasCarousel/>
+
       
       <AppleSlice />
       <IqooSlice />

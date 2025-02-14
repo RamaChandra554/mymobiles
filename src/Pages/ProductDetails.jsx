@@ -88,7 +88,7 @@ function ProductDetails() {
                             <p><strong>NFC:</strong> {Details.nfc ? 'Yes' : 'No'} / <strong>USB Type-C:</strong> {Details.usbTypeC ? 'Yes' : 'No'} / <strong>OTG Compatible:</strong> {Details.otgCompatible ? 'Yes' : 'No'}</p>
                             <p><strong>Offer:</strong> {Details.offer}</p>
                             <br />
-                            <p><strong style={{ color: 'blue' }}>Price: ₹{Details.price}</strong> <span style={{ textDecoration: 'line-through', color: 'red' }}>₹{Details.originalPrice}</span> <strong>{Details.discount}% off</strong></p>
+                            <p><strong style={{ color:'blue' }}>Price: ₹{Details.price}</strong> <span style={{ textDecoration: 'line-through', color:'red' }}>₹{Details.originalPrice}</span> <strong>{Details.discount}% off</strong></p>
                             <button className='btn btn-primary'onClick={addCart}>Add to cart</button>
                         </Col>
                     </Row>
@@ -117,3 +117,4 @@ export default ProductDetails;
     // if (!Details) {
     //     return <div>Product not found</div>;
     // }
+    
