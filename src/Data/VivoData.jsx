@@ -1,6 +1,7 @@
 export const VivoData = [
     {
       id: "V001",
+      url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/1/m/r/x90-pro-v2219-vivo-original-imagzzrqg2zbjfas.jpeg?q=70',
       name: "Vivo X90 Pro 5G (Legendary Black, 256 GB)",
       rating: 4.8,
       reviews: 5123,
@@ -38,6 +39,7 @@ export const VivoData = [
     },
     {
       id: "V002",
+      url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/u/g/-original-imagh4fnw28yghma.jpeg?q=70',
       name: "Vivo V25 Pro 5G (Stardust Black, 256 GB)",
       rating: 4.7,
       reviews: 4375,
@@ -75,7 +77,8 @@ export const VivoData = [
     },
     {
       id: "V003",
-      name: "Vivo Y100 5G (Pacific Blue, 128 GB)",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/d/4/-original-imagmvgcnpanjhdx.jpeg?q=70',
+      name: "Vivo Y100 5G (Twilight Gold, 128 GB)",
       rating: 4.5,
       reviews: 3140,
       price: 24999,
@@ -112,6 +115,7 @@ export const VivoData = [
     },
     {
       id: "V004",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/1/h/-original-imagpfbvfu4p55n4.jpeg?q=70',
       name: "Vivo T2 5G (Nitro Blaze, 128 GB)",
       rating: 4.6,
       reviews: 2956,

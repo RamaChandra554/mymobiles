@@ -1,6 +1,7 @@
 export const RealmeData = [
     {
       id: "RM001",
+      url:'https://rukminim2.flixcart.com/image/312/312/l3rmzrk0/mobile/c/c/o/-original-imagetmegwtng3xg.jpeg?q=70',
       name: "Realme GT 2 Pro 5G (Steel Blue, 256 GB)",
       rating: 4.7,
       reviews: 6789,
@@ -38,6 +39,7 @@ export const RealmeData = [
     },
     {
       id: "RM002",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/o/d/narzo-50-pro-5g-rmx3395-realme-original-imagggtckbyzrhyv.jpeg?q=70',
       name: "Realme Narzo 50 Pro 5G (Hyper Blue, 128 GB)",
       rating: 4.6,
       reviews: 2510,
@@ -75,6 +77,7 @@ export const RealmeData = [
     },
     {
       id: "RM003",
+      url:'https://rukminim2.flixcart.com/image/312/312/kzogn0w0/mobile/m/p/2/-original-imagbmf4qsurna5j.jpeg?q=70',
       name: "Realme 9 Pro+ 5G (Sunrise Blue, 128 GB)",
       rating: 4.6,
       reviews: 5321,
@@ -112,6 +115,7 @@ export const RealmeData = [
     },
     {
       id: "RM004",
+      url: 'https://rukminim2.flixcart.com/image/312/312/knrsjgw0/mobile/f/o/w/8-5g-rmx3241-realme-original-imag2d8eksc2szzy.jpeg?q=70',
       name: "Realme 8 5G (Supersonic Blue, 128 GB)",
       rating: 4.5,
       reviews: 4321,
@@ -149,6 +153,7 @@ export const RealmeData = [
     },
     {
       id: "RM005",
+      url:'https://rukminim2.flixcart.com/image/416/416/kpbipow0/mobile/0/l/g/x7-max-rmx3031-realme-original-imag3kpnpr5thc4z.jpeg?q=70&crop=false',
       name: "Realme X7 Max 5G (Asteroid Black, 128 GB)",
       rating: 4.7,
       reviews: 5310,

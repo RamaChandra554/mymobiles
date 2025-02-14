@@ -1,7 +1,8 @@
 export const OnePlusData = [
     {
       id: "OP001",
-      name: "OnePlus Nord CE 3 Lite 5G (Chromatic Blue, 128 GB)",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/p/d/nord-ce-3-lite-5g-cph2467-oneplus-original-imah4ehbgmz4qzhz.jpeg?q=70',
+      name: "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 128 GB)",
       rating: 4.5,
       reviews: 3457,
       price: 19999,
@@ -38,6 +39,7 @@ export const OnePlusData = [
     },
     {
       id: "OP002",
+      url:'https://m.media-amazon.com/images/I/71K84j2O8wL._SL1500_.jpg',
       name: "OnePlus 11 5G (Titan Black, 256 GB)",
       rating: 4.7,
       reviews: 9876,
@@ -75,6 +77,7 @@ export const OnePlusData = [
     },
     {
       id: "OP003",
+      url:'https://m.media-amazon.com/images/I/617MPEZB5mL._AC_UY218_.jpg',
       name: "OnePlus Nord 2T 5G (Gray Shadow, 128 GB)",
       rating: 4.6,
       reviews: 8523,
@@ -112,6 +115,7 @@ export const OnePlusData = [
     },
     {
       id: "OP004",
+      url:'https://m.media-amazon.com/images/I/61mIUCd-37L._AC_UY218_.jpg',
       name: "OnePlus 10 Pro 5G (Morning Mist, 256 GB)",
       rating: 4.8,
       reviews: 14234,

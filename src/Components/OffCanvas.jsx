@@ -43,6 +43,7 @@ const OffCanves = () => {
           <Link to='/samsung' style={{ textDecoration: 'none', color: 'white' }}><li>Samsung</li></Link>
           <Link to='/vivo' style={{ textDecoration: 'none', color: 'white' }}><li>Vivo</li></Link>
         </ul>
+        <ul><Link to='/' ><p>SignOut</p></Link> </ul>
       </Col>
 
       <Button variant="dark"  className="btn btn-dark d-md-none  translate-middle-y" style={{position:'fixed',height:'6%',margin:'auto', top:'28px'}}

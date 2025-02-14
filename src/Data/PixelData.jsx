@@ -1,6 +1,7 @@
 export const PixelData = [
     {
         id: "P001",
+        url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/y/n/pixel-8a-ga04432-in-google-original-imahyn3mqzdbzywg.jpeg?q=70',
         name: "Google Pixel 8 (Obsidian, 128 GB)",
         rating: 4.8,
         reviews: 5463,
@@ -38,6 +39,7 @@ export const PixelData = [
       },
       {
         id: "P002",
+        url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/p/s/-original-imaggsuemmztbghp.jpeg?q=70',
         name: "Google Pixel 7 Pro (Snow, 256 GB)",
         rating: 4.7,
         reviews: 13456,
@@ -75,6 +77,7 @@ export const PixelData = [
       },
       {
         id: "P003",
+        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/u/3/-original-imaggsuddwubypxp.jpeg?q=70',
         name: "Google Pixel 7 (Obsidian, 128 GB)",
         rating: 4.6,
         reviews: 9824,
@@ -112,7 +115,8 @@ export const PixelData = [
       },
     {
       id: "P004",
-      name: "Google Pixel 6 Pro (Stormy Black, 128 GB)",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/s/y/0/-original-imaggbrbxkqr3v3u.jpeg?q=70',
+      name: "Google Pixel 6 Pro ( Charcoal Black, 128 GB)",
       rating: 4.6,
       reviews: 10567,
       price: 84999,
@@ -149,7 +153,8 @@ export const PixelData = [
     },
     {
       id: "P005",
-      name: "Google Pixel 6 (Kinda Coral, 256 GB)",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/g/3/-original-imaggbrccwsnygar.jpeg?q=70',
+      name: "Google Pixel 6 (chalk, 256 GB)",
       rating: 4.5,
       reviews: 9254,
       price: 64999,
