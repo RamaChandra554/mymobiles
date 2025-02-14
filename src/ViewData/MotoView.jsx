@@ -3,6 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import { MotorData } from "../Data/MotoData";
 import ZviewData from "./ZviewData";
 import Sidenav from '../Components/Sidenav';
+import { NewMotoData } from "../Data/NewMotoData";
 
 
 function Motoview() {
@@ -12,7 +13,7 @@ function Motoview() {
       <Sidenav/>
 
       <ZviewData
-        data={MotorData}
+        data={NewMotoData}
         linkTo={'/moto/'}
       />
 

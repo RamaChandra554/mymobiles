@@ -1,7 +1,7 @@
 export const NewMotoData = [
   {
     id: "M001",
-    url:'https://m.media-amazon.com/images/I/51L2VqQ+BKL._SL1000_.jpg',
+    url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/l/c/-original-imahfyjbyszkewvh.jpeg?q=70',
     name: "Motorola Edge 50 Ultra 5G (Peach Fuzz)",
     rating: 4.56,
     reviews: 13456,
@@ -39,7 +39,7 @@ export const NewMotoData = [
   },
     {
       id: "M002",
-      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/5/t/j/edge-50-fusion-pb300002in-motorola-original-imahywzrfagkuyxx.jpeg?q=70',
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/k/l/edge-50-fusion-pb300001in-motorola-original-imahywzpfd2jh9ep.jpeg?q=70',
       name: "Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)",
       rating: 4.51,
       reviews: 10637,
@@ -611,6 +611,7 @@ export const NewMotoData = [
     },
     {
       id: "M019",
+      url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/l/q/-original-imah4k2srpwzpgpa.jpeg?q=70',
       name: "Motorola Edge 50 Fusion (Forest Green, 256 GB)  (12 GB RAM)",
       rating: 4.39,
       reviews: 6123,

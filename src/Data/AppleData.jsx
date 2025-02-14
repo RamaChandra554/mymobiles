@@ -1,8 +1,8 @@
 export const AppleData=[
     {
         id: "A021",
-        url:'https://m.media-amazon.com/images/I/619oqSJVY5L._SL1500_.jpg',
-        name: "Apple iPhone 15 Pro Max (Space Black, 256 GB)",
+        url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/x/h/-original-imagtc3k6zztrhnb.jpeg?q=70',
+        name: "Apple iPhone 15 Pro Max (Blue Titanium, 256 GB)",
         rating: 4.8,
         reviews: 10256,
         price: 149900,
@@ -39,7 +39,7 @@ export const AppleData=[
     },
     {
         id: "A022",
-        url:'https://m.media-amazon.com/images/I/619f09kK7tL._SL1500_.jpg',
+        url:'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/u/f/-original-imaghxa5hvapbfds.jpeg?q=70',
         name: "Apple iPhone 14 (Purple, 128 GB)",
         rating: 4.7,
         reviews: 8123,
@@ -153,8 +153,8 @@ export const AppleData=[
     },
     {
         id: "A025",
-        url:'https://m.media-amazon.com/images/I/71fVoqRC0wL._SL1500_.jpg',
-        name: "Apple iPhone 12 (Black, 64 GB)",
+        url:'https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/y/7/n/apple-iphone-12-dummyapplefsn-original-imafwg8dpyjvgg3j.jpeg?q=70',
+        name: "Apple iPhone 12 (Blue, 64 GB)",
         rating: 4.6,
         reviews: 9001,
         price: 54999,
@@ -761,7 +761,8 @@ export const AppleData=[
       },
       {
         id: "A041",
-        name: "Apple iPhone 12 Pro Max (Graphite, 256 GB)",
+        url:'https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/c/v/t/apple-iphone-12-pro-max-dummyapplefsn-original-imafwgcyhmzhaapd.jpeg?q=70',
+        name: "Apple iPhone 12 Pro Max (Pacific Blue, 256 GB)",
         rating: 4.9,
         reviews: 15500,
         price: 139999,
@@ -798,6 +799,7 @@ export const AppleData=[
       },
       {
         id: "A042",
+        url:'https://rukminim2.flixcart.com/image/312/312/ktketu80/mobile/r/m/8/iphone-13-pro-max-mllj3hn-a-apple-original-imag6vpgphrzuffg.jpeg?q=70',
         name: "Apple iPhone 13 Pro (Sierra Blue, 512 GB)",
         rating: 4.9,
         reviews: 22000,

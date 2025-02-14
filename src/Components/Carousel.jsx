@@ -23,7 +23,7 @@ function DasCarousel() {
                     src="https://images.samsung.com/is/content/samsung/assets/in/2407/pcd/smp/New_PCD_B6Q6_Main-KV_1440x640_pc.mp4"  
                     alt="Second slide"
                     style={{ height: '40vh' }}
-                    autoPlay loop mute4
+                    autoPlay loop muted
                 />
                 <Carousel.Caption style={{ color: 'black' }}>
                     <h5>Galaxy Z-Fold / Z-Flip </h5>

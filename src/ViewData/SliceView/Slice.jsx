@@ -9,10 +9,10 @@ function Slice({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All
     <>
     <Col className='w-100' >
     <Row className="p-2 " style={{textDecoration:'none',gap:'5px'}}>
-      <div className='d-flex' style={{gap:'10px'}}>
+      <div className='d-flex' style={{gap:'5px'}}>
         {MobSlice.map((e, index) => (
           <div key={index} className="d-grid border p-2" style={{ width }}>
-              <img src={e.url} style={{ height: imgHeight, maxWidth: '100%', margin:'autos' }} alt={e.name} />
+              <img src={e.url} style={{ height: imgHeight, maxWidth: '100%', margin:'auto' }} alt={e.name} />
               <p>{e.name}</p>
               <p>{e.title}</p>
               <p><b>{e.price || e.originalPrice}</b> / {e.discount}% off</p>

@@ -4,21 +4,23 @@ import { Link } from 'react-router-dom';
 
 
 
-function ZviewData({data, imgHeight = '240px', width = '22%', seeAllText = 'See All', linkTo } ) {
+function ZviewData({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All', linkTo }) {
     let MobView = data;
     return (
         <>
             <Col xs={8} sm={9} md={10} lg={10}>
-                <Row className="p-2 " style={{ textDecoration: 'none' }}>
+                <Row className="p-1 " style={{ textDecoration: 'none' }}>
                     {MobView.map((e, index) => (
-                        <Col xs={12} sm={6} md={4} lg={3} key={index} className="d-grid mb-3">
-                            <div className="d-grid border p-2" style={{}}>
-                                <img src={e.url} style={{ height: '200px', maxWidth: '100%', margin: 'auto' }} alt={e.title} />
-                                <p><strong>{e.name}</strong></p>
-                                <p><b>{e.price}</b> / {e.discount}% off</p>
-                                <p><strong>Rating:</strong> {e.rating}</p>
-                                <Link to={`${linkTo}${e.id}`} ><p className="btn btn-outline-primary btn-sm">Learn More</p></Link>
-                            </div>
+                        <Col xs={12} sm={6} md={4} lg={3} xl={2} key={index} className="d-grid mb-3">
+                            <Link to={`${linkTo}${e.id}`} className='d-grid' style={{ textDecoration: 'none', color: 'black' }} >
+                                <div className="d-grid border p-2" style={{}}>
+                                    <img src={e.url} style={{ height: '200px', maxWidth: '100%', margin: 'auto' }} alt={e.title} />
+                                    <p><strong>{e.name}</strong></p>
+                                    <p><b>{e.price}</b> / {e.discount}% off</p>
+                                    <p><strong>Rating:</strong> {e.rating}</p>
+                                    {/* <p className="btn btn-outline-dark btn-sm">Learn More</p> */}
+                                </div>
+                            </Link>
                         </Col>
                     ))}
                 </Row>
