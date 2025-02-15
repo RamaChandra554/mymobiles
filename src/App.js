@@ -5,7 +5,7 @@ import Signup from './Pages/Signup';
 import Login from './Pages/Login';
 import Dashbord from './Pages/Dashbord';
 import { Footer, Header } from 'antd/es/layout/layout';
-import MainDash from './Modules/MainDash';
+import MainDash from '../src/Pages/Dashbord';
 import AppleView from './ViewData/AppleView';
 import IqooView from './ViewData/IqooView';
 import Motoview from './ViewData/MotoView';
