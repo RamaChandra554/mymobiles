@@ -25,7 +25,7 @@ const Sidenav = () => {
 
   return (
     <Col
-      xs={isOpen ? 4 : 1}
+      xs={isOpen ? 4 : 2}
       sm={isOpen ? 3 : 1}
       md={isOpen ? 2 : 1}
       lg={isOpen ? 2 : 1}

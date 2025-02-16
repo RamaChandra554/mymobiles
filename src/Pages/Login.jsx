@@ -16,7 +16,7 @@ function Login() {
             
                 <label htmlFor="">Password</label>
                 <input type="password" className='form-control'/><br />
-                <Link to='/dashbord'><input type="button"  className=' btn btn-outline-primary ' value='Login'/></Link>
+                <Link to='/dashboard'><input type="button"  className=' btn btn-outline-primary ' value='Login'/></Link>
                 <br />
                 <h5 className='text-center'><small>not a member</small> <Link to='/signup'>RegisterNow</Link></h5>
             </form>

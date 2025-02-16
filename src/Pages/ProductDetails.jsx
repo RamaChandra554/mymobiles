@@ -17,6 +17,7 @@ import { VivoData } from '../Data/VivoData';
 
 
 
+
 function ProductDetails() {
     const { id } = useParams();
     let Details = iqooData.find((e) => e.id == id);
@@ -48,8 +49,29 @@ function ProductDetails() {
             setCart(updatedCart);
             localStorage.setItem('cartItem', JSON.stringify(updatedCart));
     
-            alert('Item added to cart successfully');
+            alert(`${Details.name} added to cart!`);
         };
+        if (!Details) {
+            return (
+                <Container fluid>
+                    <Row className='p-0'>
+                        <Sidenav />
+                        <Col xs={8} sm={9} md={10} lg={10}>
+                            <div className='bg-dark text-light d-flex justify-content-between'>
+                                <h3>Product Details</h3>
+                                <Link to='/cart'><p>Cart</p></Link>
+                            </div>
+                            <Row className='border align-items-center p-2'>
+                                <Col>
+                                    <p>Product not found!</p>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                </Container>
+            );
+        }
+    
 
     // const addCart =() =>{
     //     const ProductData = document.querySelectorAll('p');

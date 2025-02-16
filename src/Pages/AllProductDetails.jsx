@@ -14,12 +14,14 @@ import { PixelData } from '../Data/PixelData';
 import { RealmeData } from '../Data/RealmeData';
 import { SamsungData } from '../Data/SamsungData';
 import { VivoData } from '../Data/VivoData';
+import { ZAllData } from '../Data/ZAllData';
 
 
 
-function AllProductDetails() {
+
+function ProductDetails() {
     const { id } = useParams();
-    let Details = SamsungData.find((e) => e.id == id);
+    let Details = ZAllData.find((e) => e.id == id);
 
     const [cart, setCart] =useState([]);
 
@@ -47,9 +49,37 @@ function AllProductDetails() {
             const updatedCart = [...cart, product];
             setCart(updatedCart);
             localStorage.setItem('cartItem', JSON.stringify(updatedCart));
-    
-            alert('Item added to cart successfully');
+            alert(`${Details.name} added to cart!`);
         };
+        
+    if (!Details) {
+        return (
+            <Container fluid>
+                <Row className='p-0'>
+                    <Sidenav />
+                    <Col xs={8} sm={9} md={10} lg={10}>
+                        <div className='bg-dark text-light d-flex justify-content-between'>
+                            <h3>Product Details</h3>
+                            <Link to='/cart'><p>Cart</p></Link>
+                        </div>
+                        <Row className='border align-items-center p-2'>
+                            <Col>
+                                <p>Product not found!</p>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
+        );
+    }
+
+    // const addCart =() =>{
+    //     const ProductData = document.querySelectorAll('p');
+    //     let singleData = Array.from(ProductData).map((i)=>i.innerText)
+    //     setCart(singleData)
+    //     alert ('item Add to Cart Successfully')
+    // };
+    // localStorage.setItem('cartItem',cart)
 
     return (
         <Container fluid>
@@ -90,7 +120,7 @@ function AllProductDetails() {
     );
 }
 
-export default AllProductDetails;
+export default ProductDetails;
 
 
     // const allDataArrays = [

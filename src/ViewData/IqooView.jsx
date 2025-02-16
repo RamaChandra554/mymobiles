@@ -12,6 +12,7 @@ function IqooView() {
 
 
         <ZviewData
+        videoUrl={"https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1738142530699/zip/img/iqoo13-tvc-video1-lg.webm"}
           data={iqooData}
           linkTo={`/iqoo/`}
         />

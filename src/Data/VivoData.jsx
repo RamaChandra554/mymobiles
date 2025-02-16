@@ -153,6 +153,7 @@ export const VivoData = [
     },
     {
       id: "V005",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-y33s-5g.jpg',
       name: "Vivo Y33s 5G (Midday Dream, 128 GB)",
       rating: 4.4,
       reviews: 4221,
@@ -190,7 +191,8 @@ export const VivoData = [
     },
     {
       id: "V006",
-      name: "Vivo Y12s 2021 (Phantom Black, 32 GB)",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-y12s.jpg',
+      name: "Vivo Y12s 2021 (Phantom Blue, 32 GB)",
       rating: 4.3,
       reviews: 3092,
       price: 9999,
@@ -227,6 +229,7 @@ export const VivoData = [
     },
     {
       id: "V007",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-.jpg',
       name: "Vivo V21e (Diamond Glow, 128 GB)",
       rating: 4.6,
       reviews: 4105,
@@ -264,7 +267,8 @@ export const VivoData = [
     },
     {
         id: "V008",
-        name: "Vivo Y73 5G (Roman Black, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v21e.jpg',
+        name: "Vivo Y73 5G (Diamond Flare, 128 GB)",
         rating: 4.5,
         reviews: 3302,
         price: 20999,
@@ -301,6 +305,7 @@ export const VivoData = [
       },
       {
         id: "V009",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-x60-pro-global-new.jpg',
         name: "Vivo X60 Pro 5G (Shimmer Blue, 256 GB)",
         rating: 4.7,
         reviews: 5124,
@@ -338,7 +343,8 @@ export const VivoData = [
       },
       {
         id: "V010",
-        name: "Vivo V20 SE (Gravity Black, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v20se.jpg',
+        name: "Vivo V20 SE (Oxygen Blue, 128 GB)",
         rating: 4.4,
         reviews: 3004,
         price: 20999,
@@ -375,6 +381,7 @@ export const VivoData = [
       },
       {
         id: "V011",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-t1-5g.jpg',
         name: "Vivo T1 5G (Starlight Black, 128 GB)",
         rating: 4.6,
         reviews: 2512,
@@ -412,7 +419,8 @@ export const VivoData = [
       },
       {
         id: "V012",
-        name: "Vivo Y20G (Obsidian Black, 64 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-y20g.jpg',
+        name: "Vivo Y20G (Purist Blue, 64 GB)",
         rating: 4.3,
         reviews: 4521,
         price: 12999,
@@ -449,7 +457,8 @@ export const VivoData = [
       },
       {
         id: "V013",
-        name: "Vivo V15 Pro (Topaz Blue, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v15-pro.jpg',
+        name: "Vivo V15 Pro (Ruby Red, 128 GB)",
         rating: 4.4,
         reviews: 5112,
         price: 24999,
@@ -486,6 +495,7 @@ export const VivoData = [
       },
       {
         id: "V014",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-x50-pro-.jpg',
         name: "Vivo X50 Pro 5G (Alpha Gray, 256 GB)",
         rating: 4.7,
         reviews: 6531,
@@ -523,7 +533,8 @@ export const VivoData = [
       },
       {
         id: "V015",
-        name: "Vivo V21 5G (Dusk Blue, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v21-5g.jpg',
+        name: "Vivo V21 5G (Arctic White, 128 GB)",
         rating: 4.5,
         reviews: 2201,
         price: 27999,
@@ -560,7 +571,8 @@ export const VivoData = [
       },
       {
         id: "V016",
-        name: "Vivo Y30 (Emerald Black, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-y30.jpg',
+        name: "Vivo Y30 (Emerald Blue, 128 GB)",
         rating: 4.3,
         reviews: 1895,
         price: 15499,
@@ -597,7 +609,8 @@ export const VivoData = [
       },
       {
         id: "V017",
-        name: "Vivo V17 Pro (Midnight Ocean, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v17-pro-r.jpg',
+        name: "Vivo V17 Pro (Crystal Sky, 128 GB)",
         rating: 4.5,
         reviews: 3921,
         price: 28999,
@@ -634,6 +647,7 @@ export const VivoData = [
       },
       {
         id: "V018",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-y51s.jpg',
         name: "Vivo Y51 5G (Crystal Symphony, 128 GB)",
         rating: 4.4,
         reviews: 2893,
@@ -671,6 +685,7 @@ export const VivoData = [
       },
       {
         id: "V019",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-x60-global-new.jpg',
         name: "Vivo X60 5G (Midnight Black, 128 GB)",
         rating: 4.7,
         reviews: 7225,
@@ -708,7 +723,8 @@ export const VivoData = [
       },
       {
         id: "V020",
-        name: "Vivo Y73 5G (Roman Black, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v21e.jpg',
+        name: "Vivo Y73 5G (Diamond Flare, 128 GB)",
         rating: 4.5,
         reviews: 3512,
         price: 20999,
@@ -745,6 +761,7 @@ export const VivoData = [
       },
       {
         id: "V021",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v20-pro.jpg',
         name: "Vivo V20 Pro 5G (Sunset Melody, 128 GB)",
         rating: 4.6,
         reviews: 5623,
@@ -782,7 +799,8 @@ export const VivoData = [
       },
       {
         id: "V022",
-        name: "Vivo Y12s (Phantom Black, 32 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-y12s.jpg',
+        name: "Vivo Y12s (Glacier Blue, 32 GB)",
         rating: 4.3,
         reviews: 1801,
         price: 9499,
@@ -819,7 +837,8 @@ export const VivoData = [
       },
       {
         id: "V023",
-        name: "Vivo V17 (Crystal White, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/vivo-v17.jpg',
+        name: "Vivo V17 (Crystal Blue, 128 GB)",
         rating: 4.5,
         reviews: 3741,
         price: 21999,

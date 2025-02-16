@@ -4,11 +4,18 @@ import { Link } from 'react-router-dom';
 
 
 
-function ZviewData({ data, imgHeight = '240px', width = '22%', seeAllText = 'See All', linkTo }) {
+function ZviewData({ data, videoUrl, imgHeight = '240px', width = '22%', seeAllText = 'See All', linkTo }) {
     let MobView = data;
     return (
         <>
             <Col xs={8} sm={9} md={10} lg={10}>
+            <video
+                    className="d-block w-100"
+                    src={videoUrl}
+                    alt="First slide"
+                    style={{ height: '40vh' }}
+                    autoPlay loop  muted
+                />
                 <Row className="p-1 " style={{ textDecoration: 'none' }}>
                     {MobView.map((e, index) => (
                         <Col xs={12} sm={6} md={4} lg={3} xl={2} key={index} className="d-grid mb-3">

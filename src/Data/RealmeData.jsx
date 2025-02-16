@@ -191,6 +191,7 @@ export const RealmeData = [
     },
     {
       id: "RM006",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/realme-c25y.jpg',
       name: "Realme C25Y (Glory Blue, 64 GB)",
       rating: 4.4,
       reviews: 1132,
@@ -228,6 +229,7 @@ export const RealmeData = [
     },
     {
       id: "RM007",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30-pro.jpg',
       name: "Realme Narzo 30 Pro 5G (Race Speed Blue, 128 GB)",
       rating: 4.7,
       reviews: 4925,
@@ -265,6 +267,7 @@ export const RealmeData = [
     },
     {
       id: "RM008",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30-pro.jpg',
       name: "Realme X50 Pro 5G (Rust Red, 256 GB)",
       rating: 4.7,
       reviews: 8420,
@@ -302,6 +305,7 @@ export const RealmeData = [
     },
     {
       id: "RM009",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/realme-c11-2021.jpg',
       name: "Realme C11 2021 (Cool Blue, 32 GB)",
       rating: 4.3,
       reviews: 1472,
@@ -339,7 +343,8 @@ export const RealmeData = [
     },
     {
       id: "RM010",
-      name: "Realme X3 SuperZoom (Artic White, 128 GB)",
+      url:'https://fdn2.gsmarena.com/vv/bigpic/realme-x3-superzoom.jpg',
+      name: "Realme X3 SuperZoom (Artic Blue, 128 GB)",
       rating: 4.8,
       reviews: 11132,
       price: 27999,
@@ -376,6 +381,7 @@ export const RealmeData = [
     },
     {
         id: "RM011",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-c21y.jpg',
         name: "Realme C21Y (Cross Blue, 64 GB)",
         rating: 4.3,
         reviews: 2405,
@@ -413,7 +419,8 @@ export const RealmeData = [
       },
       {
         id: "RM012",
-        name: "Realme Narzo 30A (Laser Blue, 64 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30.jpg',
+        name: "Realme Narzo 30 (Racing Wite, 64 GB)",
         rating: 4.6,
         reviews: 3978,
         price: 8999,
@@ -450,6 +457,7 @@ export const RealmeData = [
       },
       {
         id: "RM013",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-7.jpg',
         name: "Realme 7 5G (Mist Blue, 128 GB)",
         rating: 4.7,
         reviews: 6134,
@@ -487,7 +495,8 @@ export const RealmeData = [
       },
       {
         id: "RM014",
-        name: "Realme 6 (Comet White, 64 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-7.jpg',
+        name: "Realme 6 (Comet Blue, 64 GB)",
         rating: 4.7,
         reviews: 8841,
         price: 16999,
@@ -524,7 +533,8 @@ export const RealmeData = [
       },
       {
         id: "RM015",
-        name: "Realme Narzo 20 Pro (Black Ninja, 64 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-20-pro.jpg',
+        name: "Realme Narzo 20 Pro (Wight Knight, 64 GB)",
         rating: 4.7,
         reviews: 9223,
         price: 13999,
@@ -561,7 +571,8 @@ export const RealmeData = [
       },
       {
         id: "RM016",
-        name: "Realme X2 Pro (Lunar White, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-x2-pro.jpg',
+        name: "Realme X2 Pro (Neptune Blue, 128 GB)",
         rating: 4.8,
         reviews: 12345,
         price: 29999,
@@ -598,7 +609,8 @@ export const RealmeData = [
       },
       {
         id: "RM017",
-        name: "Realme C12 (Power Blue, 32 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-c12.jpg',
+        name: "Realme C12 (Power Red, 32 GB)",
         rating: 4.4,
         reviews: 1522,
         price: 9999,
@@ -635,6 +647,7 @@ export const RealmeData = [
       },
       {
         id: "RM018",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-5-pro-rmx1971.jpg',
         name: "Realme 5 Pro (Sparkling Blue, 64 GB)",
         rating: 4.5,
         reviews: 8314,
@@ -672,7 +685,8 @@ export const RealmeData = [
       },
       {
         id: "RM019",
-        name: "Realme X (Space Blue, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-x.jpg',
+        name: "Realme X (Steam White, 128 GB)",
         rating: 4.7,
         reviews: 5432,
         price: 29999,
@@ -709,7 +723,8 @@ export const RealmeData = [
       },
       {
         id: "RM020",
-        name: "Realme Narzo 30 Pro 5G (Sword Black, 128 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30-pro.jpg',
+        name: "Realme Narzo 30 Pro 5G (Blade Sliver, 128 GB)",
         rating: 4.6,
         reviews: 5634,
         price: 16999,
@@ -746,6 +761,7 @@ export const RealmeData = [
       },
       {
         id: "RM021",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-6i.jpg',
         name: "Realme 6i (Citrus Green, 128 GB)",
         rating: 4.6,
         reviews: 4100,
@@ -783,7 +799,8 @@ export const RealmeData = [
       },
       {
         id: "RM022",
-        name: "Realme 5i (Forest Green, 64 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-5i.jpg',
+        name: "Realme 5i (Forest Blue, 64 GB)",
         rating: 4.5,
         reviews: 6254,
         price: 9999,
@@ -820,6 +837,7 @@ export const RealmeData = [
       },
       {
         id: "RM023",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-c15q.jpg',
         name: "Realme C15 (Power Silver, 64 GB)",
         rating: 4.4,
         reviews: 4800,
@@ -857,7 +875,8 @@ export const RealmeData = [
       },
       {
         id: "RM024",
-        name: "Realme 2 Pro (Black Sea, 64 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/oppo-realme-2-pro.jpg',
+        name: "Realme 2 Pro (Light Blue, 64 GB)",
         rating: 4.6,
         reviews: 10234,
         price: 13999,
@@ -894,7 +913,8 @@ export const RealmeData = [
       },
       {
         id: "RM025",
-        name: "Realme Narzo 30A (Laser Black, 32 GB)",
+        url:'https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30a.jpg',
+        name: "Realme Narzo 30A (Laser Green, 32 GB)",
         rating: 4.4,
         reviews: 3523,
         price: 8499,
