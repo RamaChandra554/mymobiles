@@ -14,13 +14,14 @@ import { PixelData } from '../Data/PixelData';
 import { RealmeData } from '../Data/RealmeData';
 import { SamsungData } from '../Data/SamsungData';
 import { VivoData } from '../Data/VivoData';
+import { ZAllData } from '../Data/ZAllData';
 
 
 
 
 function ProductDetails() {
     const { id } = useParams();
-    let Details = iqooData.find((e) => e.id == id);
+    let Details = ZAllData.find((e) => e.id == id);
 
     const [cart, setCart] =useState([]);
 

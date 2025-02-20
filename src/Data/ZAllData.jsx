@@ -2394,7 +2394,8 @@ export const ZAllData = [
         nfc: true,
         usbTypeC: true,
         otgCompatible: true
-    }, {
+    }, 
+    {
         id: "M028",
         url: 'https://cdn1.smartprix.com/rx-iYU3ZWRnb-w420-h420/motorola-moto-edge-5.webp',
         name: "Motorola Edge 50 Lite (Moonlit Grey, 128 GB)",

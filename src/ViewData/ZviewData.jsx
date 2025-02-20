@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { ZAllData } from '../Data/ZAllData';
 
 
 

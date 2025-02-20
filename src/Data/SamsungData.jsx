@@ -20,7 +20,7 @@ export const SamsungData = [
     rearCameraFeatures: "Bixby Vision, Dual Recording, Hyperlapse, Night Mode",
     frontCameraFeatures: "12MP with Fixed Focus",
     battery: "4000 mAh",
-    batteryCharging: "25W Fast Charging",
+    batteryCharging: "50W Fast Charging",
     processor: "Snapdragon 8 Elite for Galaxy",
     processorCore: "Octa-core",
     gpu: "Adreno 830",

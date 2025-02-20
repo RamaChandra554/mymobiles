@@ -44,8 +44,9 @@ const Sidenav = () => {
 
   
         {isOpen && ( 
-          <div className="text-center mb-4">
-            <h3 className="text-dark fw-bold">MyApp</h3>
+          <div className="text-center d-flex mb-4">
+            <img src="../Asserts/Photos/logo.png" alt="" />
+            <h3 className="text-dark fw-bold"> MyApp</h3>
           </div>
         )}
 
