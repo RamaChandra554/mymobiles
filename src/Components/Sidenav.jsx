@@ -61,6 +61,7 @@ const Sidenav = () => {
           <NavLink to="/pixel" icon={brandLogos.pixel} label="Pixel" isOpen={isOpen} />
           <NavLink to="/realme" icon={brandLogos.realme} label="Realme" isOpen={isOpen} />
           <NavLink to="/vivo" icon={brandLogos.vivo} label="Vivo" isOpen={isOpen} />
+          <NavLink to="/cart" icon="bi-cart" label="Cart" isOpen={isOpen} />
         </ul>
 
 

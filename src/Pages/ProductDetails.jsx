@@ -5,15 +5,6 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { iqooData } from '../Data/IqooData';
-import { AppleData } from '../Data/AppleData';
-import { NewMotoData } from '../Data/NewMotoData';
-import { NothingData } from '../Data/NotingData';
-import { OnePlusData } from '../Data/OnePluseData';
-import { PixelData } from '../Data/PixelData';
-import { RealmeData } from '../Data/RealmeData';
-import { SamsungData } from '../Data/SamsungData';
-import { VivoData } from '../Data/VivoData';
 import { ZAllData } from '../Data/ZAllData';
 
 
@@ -88,7 +79,9 @@ function ProductDetails() {
                 <Sidenav/>
 
                 <Col xs={8} sm={9} md={10} lg={10}>
-                    <div className='bg-dark text-light d-flex justifyContent-between'><h3>Product Details</h3> <Link to='/cart'><p>Cart</p></Link></div>
+                    <div className='bg-dark text-light d-flex justifyContent-between align-items-center'>
+                        <h3>Product Details</h3> 
+                    <Link to='/cart'><p style={{marginLeft:'100px'}}>Cart</p></Link></div>
                     <Row className='border align-items-center p-2'>
                         <Col xs={12} sm={6} md={4} lg={4} className='mb-2'>
                             <img src={Details.url} style={{ height: 'auto', justifyContent:'between', width:'80%', maxWidth: '100%' }} alt={Details.name} />
@@ -123,21 +116,3 @@ function ProductDetails() {
 
 export default ProductDetails;
 
-
-    // const allDataArrays = [
-    //     iqooData, AppleData, NewMotoData, NothingData, OnePlusData, PixelData, 
-    //     RealmeData, SamsungData, VivoData
-    // ];
-
-    // // Find the product details by checking each array
-    // let Details = null;
-    // for (let i = 0; i < allDataArrays.length; i++) {
-    //     Details = allDataArrays[i].find((e) => e.id == id);
-    //     if (Details) break; // If found, exit the loop
-    // }
-
-    // // If no product is found, show an error or return early
-    // if (!Details) {
-    //     return <div>Product not found</div>;
-    // }
-    

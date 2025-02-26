@@ -26,24 +26,33 @@ const App = () => {
       <Router>
         <Routes>
 
-          <Route path='/' element={<Login/>} />
-          <Route path='/signup'element={<Signup/>}/>
-          <Route path = '/dashboard' element= {<Dashbord/>}/>
-          <Route path = '/maindash' element = {<MainDash/>}/>
-          <Route path='/apple' element= {<AppleView/>}/>
-          <Route path='/iqoo' element = {<IqooView/>}/>
-          <Route path='/iqoo/:id' element={<ProductDetails/>} />
-          <Route path='/moto' element = {<Motoview/>}/>
-          <Route path='/nothing' element ={<NotingView/>}/>
-          <Route path='/onepluse' element={<OnePluseView/>}/>
-          <Route path='/pixel' element={<PixelView/>}/>
-          <Route path='/realme' element ={<RealmeView/>}/>
-          <Route path='/samsung' element={<SamsungView/>}/>
-          <Route path='/vivo' element={<VivoView/>}/>
-          <Route path='/details' element={<ProductDetails/>} />
-          <Route path='/cart' element={<Cart/>} />
-          
-          
+          <Route path='/' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='/dashboard' element={<Dashbord />} />
+          <Route path='/maindash' element={<MainDash />} />
+          <Route path='/apple' element={<AppleView />} />
+          <Route path='/iqoo' element={<IqooView />} />
+          <Route path='/iqoo/:id' element={<ProductDetails />} />
+          <Route path='/moto' element={<Motoview />} />
+          <Route path='/nothing' element={<NotingView />} />
+          <Route path='/onepluse' element={<OnePluseView />} />
+          <Route path='/pixel' element={<PixelView />} />
+          <Route path='/realme' element={<RealmeView />} />
+          <Route path='/samsung' element={<SamsungView />} />
+          <Route path='/vivo' element={<VivoView />} />
+          <Route path='/details' element={<ProductDetails />} />
+          <Route path='/cart' element={<Cart />} />
+
+          <Route path='/apple/:id' element={<ProductDetails />} />
+          <Route path="/iqoo/:id" element={<ProductDetails />} />
+          <Route path='/moto/:id' element={<ProductDetails />} />
+          <Route path='/nothing/:id' element={<ProductDetails />} />
+          <Route path='/pixel/:id' element={<ProductDetails />} />
+          <Route path='/realme/:id' element={<ProductDetails />} />
+          <Route path='/samsung/:id' element={<ProductDetails />} />
+          <Route path='/vivo/:id' element={<ProductDetails />} />
+
+
         </Routes>
       </Router>
     </div>
