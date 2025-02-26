@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mymobiles/static/css/main.095f6b46.css",
+    "main.js": "/mymobiles/static/js/main.2405a7b8.js",
+    "static/js/488.83e06145.chunk.js": "/mymobiles/static/js/488.83e06145.chunk.js",
+    "static/media/Motorola.mp4": "/mymobiles/static/media/Motorola.97bb1f05b968cb3499e0.mp4",
+    "static/media/Apple.mp4": "/mymobiles/static/media/Apple.5338dd55179ad6ebd65f.mp4",
+    "static/media/pixel.mp4": "/mymobiles/static/media/pixel.f189dcfab8578a7125af.mp4",
+    "static/media/Realme.mp4": "/mymobiles/static/media/Realme.77eb1705e1f2cc56ad18.mp4",
+    "static/media/Nothing 2a.mp4": "/mymobiles/static/media/Nothing 2a.052c8e44b376c1f3cd3e.mp4",
+    "static/media/vivo.mp4": "/mymobiles/static/media/vivo.34261f11404c9a6ad4ae.mp4",
+    "static/media/bootstrap-icons.woff?": "/mymobiles/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/mymobiles/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/mymobiles/index.html",
+    "main.095f6b46.css.map": "/mymobiles/static/css/main.095f6b46.css.map",
+    "main.2405a7b8.js.map": "/mymobiles/static/js/main.2405a7b8.js.map",
+    "488.83e06145.chunk.js.map": "/mymobiles/static/js/488.83e06145.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.095f6b46.css",
+    "static/js/main.2405a7b8.js"
+  ]
+}
