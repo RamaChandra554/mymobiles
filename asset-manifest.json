@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mymobiles/static/css/main.095f6b46.css",
-    "main.js": "/mymobiles/static/js/main.d58d9851.js",
+    "main.js": "/mymobiles/static/js/main.7c9e44fd.js",
     "static/js/488.83e06145.chunk.js": "/mymobiles/static/js/488.83e06145.chunk.js",
     "static/media/Motorola.mp4": "/mymobiles/static/media/Motorola.97bb1f05b968cb3499e0.mp4",
     "static/media/Apple.mp4": "/mymobiles/static/media/Apple.5338dd55179ad6ebd65f.mp4",
@@ -13,11 +13,11 @@
     "static/media/bootstrap-icons.woff2?": "/mymobiles/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/mymobiles/index.html",
     "main.095f6b46.css.map": "/mymobiles/static/css/main.095f6b46.css.map",
-    "main.d58d9851.js.map": "/mymobiles/static/js/main.d58d9851.js.map",
+    "main.7c9e44fd.js.map": "/mymobiles/static/js/main.7c9e44fd.js.map",
     "488.83e06145.chunk.js.map": "/mymobiles/static/js/488.83e06145.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.095f6b46.css",
-    "static/js/main.d58d9851.js"
+    "static/js/main.7c9e44fd.js"
   ]
 }
