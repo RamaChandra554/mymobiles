@@ -34,6 +34,8 @@ function ProductDetails() {
     const addCart = () => {
         const product = {
             name: Details.name,
+            ram: Details.ram,
+            originalPrice: Details.originalPrice,
             price: Details.price,
             url: Details.url,
             rating: Details.rating,
