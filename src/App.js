@@ -47,6 +47,7 @@ const App = () => {
           <Route path="/iqoo/:id" element={<ProductDetails />} />
           <Route path='/moto/:id' element={<ProductDetails />} />
           <Route path='/nothing/:id' element={<ProductDetails />} />
+          <Route path='/onepluse/:id' element={<ProductDetails />} />
           <Route path='/pixel/:id' element={<ProductDetails />} />
           <Route path='/realme/:id' element={<ProductDetails />} />
           <Route path='/samsung/:id' element={<ProductDetails />} />
